@@ -1,0 +1,45 @@
+.my-form{
+    margin: 10px;
+    border: wheat 2px solid;
+    padding: 25px;
+    background-color: antiquewhite;
+}
+
+.my-form .form-group{
+    margin-top: 20px;
+}
+
+#target{
+    margin: 10px;
+    pad: 25px;
+}
+
+#target .task{
+    border: black 2px solid;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#target .task.task-low{
+    background-color: tan;
+}
+
+#target .task.task-high{
+    background-color: red;
+    color: white;
+}
+
+#target .task.task-medium{
+    background-color: salmon;
+}
+
+#target .task.task-done{
+    background-color: green;
+    color: white;
+}
+
+#target .task p{
+    margin-bottom: 10px;
+}
